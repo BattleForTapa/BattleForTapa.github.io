@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0px;
     background-color: rgb(255, 255, 255);
@@ -33,12 +35,13 @@ body {
     position: relative;
     min-height: 80vh;
     height: auto;
-    box-shadow: 0px 5px 10px rgb(73, 73, 73);
+    box-shadow: -5px 5px 10px rgb(73, 73, 73);
 }
 
 #quote {
-    min-width: 450px;
-    width: 80%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #quote-text {
@@ -48,7 +51,8 @@ body {
 
 #quote-author {
     font-size: 14px;
-    text-align: right;
+    text-align: center;
+    
 }
 
 #intro-text {
@@ -90,6 +94,13 @@ body {
 
 #location {
     margin-left: 4%;
+}
+
+#reg-button-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 /* -- Content b -- */
@@ -210,7 +221,7 @@ body {
     line-height: 24px;
 }
 
-#reg-button {
+.reg-button {
     background-color: rgb(59, 182, 2);
     border: none;
     color: white;
@@ -242,4 +253,43 @@ body {
 #footer {
     background-color: #0084B5;
     height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        font-size: 32px;
+    }
+
+    #time-location, #course-info, #categories-info {
+        flex-direction: column;
+    }
+
+    #time {
+        width: auto;
+    }
+
+    #location {
+        margin-left: 0;
+        width: auto;
+    }
+
+    #course-info-green {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #course-info-red {
+        width: auto;
+        margin-left: 0;
+    }
+
+    #cat-civ {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #cat-mil {
+        width: auto;
+        margin-left: 0;
+    }
 }
