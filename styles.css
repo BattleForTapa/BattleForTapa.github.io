@@ -9,7 +9,9 @@ body {
     width: 100%;
     min-width: 200px;
     padding: 0px;
-    background-color: #0084B5;
+    background-color: #B9C0B9;
+    background-image: url(img03.png);
+    background-repeat: no-repeat;
     display: flex;
 }
 
