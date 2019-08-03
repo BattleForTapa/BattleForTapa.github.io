@@ -35,6 +35,18 @@ body {
     margin-top: 10px;
 }
 
+#language-link {
+    margin-top: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: end;
+}
+
+#language-link a {
+    color: white;
+    text-decoration: none;
+}
+
 #content {
     display: flex;
     flex-direction: column;
